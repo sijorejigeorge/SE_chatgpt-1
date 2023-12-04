@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Aquarium Hobbyist</title>
+</head>
+<body>
+
+  <header>
+    <h1>Aquarium Hobbyist</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#aquariums">Aquariums</a></li>
+      <li><a href="#add-aquarium">Add Aquarium</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to the Aquarium Hobbyist Website!</h2>
+      <p>This is a place for aquarium enthusiasts to explore and share their passion for fishkeeping.</p>
+    </section>
+
+    <section id="aquariums">
+      <h2>Aquarium Types</h2>
+      <ul id="aquarium-list">
+        <!-- List of aquarium types will be dynamically added here using JavaScript -->
+      </ul>
+    </section>
+
+    <section id="add-aquarium">
+      <h2>Add a New Aquarium Type</h2>
+      <form id="add-aquarium-form">
+        <label for="aquarium-name">Aquarium Name:</label>
+        <input type="text" id="aquarium-name" required>
+        <button type="submit">Add Aquarium</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Aquarium Hobbyist. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
